@@ -1,0 +1,28 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+import HelloWorld from '@/components/HelloWorld'
+import home from '../home'
+import menu from '@/components/menu'
+// import menuchild from '@/components/menuchild'
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: home
+    },
+    {
+      path: '/menu',
+      name: 'menu',
+      component: menu
+    },
+    {
+      path: '/HelloWorld',
+      name: 'HelloWorld',
+      component: HelloWorld
+    }
+
+  ]
+})
