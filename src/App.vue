@@ -23,7 +23,7 @@ export default {
     
   },
   mounted(){
-    //  var appBoxHeight = 
+    
   },
   methods:{
   
