@@ -46,7 +46,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   height:70px;
-  /* border:2px solid #ffffff; */
+
 
 }
 .dot{
